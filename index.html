@@ -16,9 +16,7 @@ Phone: (347) 260-4672 (C)
 gregphillips03@gmail.com  
 greg.phillips@aecom.com
 
-<h2>Post Secondary Education:</h2>
-
-<button class="accordion">Section 1</button>
+<button class="accordion">Post Secondary Education</button>
 <div class="panel">
   <h3>Bachelor of Science in Computer Science with Minor in Data Science</h3>
 University of Mary Washington, Fredericksburg, VA, 100+ Credits, GPA: 3.7 
@@ -40,9 +38,12 @@ Central Texas College, Killeen, TX, August  2011, GPA: 3.9
 Graduated with Honors
 </div>
 
-<h2>Security Clearance:</h2>
+<button class = "accordion">Security Clearance:</button>
+<div class ="panel">
 
 Current (as of April 2016). Will provide clearance level upon request. 
+
+</div>
 
 <h2>Experience:</h2>
 
@@ -132,6 +133,23 @@ Additional Information:
 REFERENCES:
 
 References upon request
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 </body>
 </html>
