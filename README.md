@@ -7,30 +7,32 @@ Phone: (347) 260-4672 (C)
 gregphillips03@gmail.com  
 greg.phillips@aecom.com
 
-POST SECONDARY EDUCATION:
-Bachelor of Science in Computer Science with Minor in Data Science
+<h2>POST SECONDARY EDUCATION:</h2>
+
+<h3>Bachelor of Science in Computer Science with Minor in Data Science</h3>
 University of Mary Washington, Fredericksburg, VA, 100+ Credits, GPA: 3.7 
 
-Bachelor of Science in Computer Information Systems, Software Engineering and Database Design
+<h3>Bachelor of Science in Computer Information Systems, Software Engineering and Database Design</h3>
 Texas A&M University Central Texas, Killeen, TX, August 2013, GPA: 4.0
 Delta Mu Delta Honor Society Inductee (Excellence in Business Administration)
-Associate of Science in Applied Science in Network Systems Administration
+
+<h3>Associate of Science in Applied Science in Network Systems Administration<h3>
 Central Texas College, Killeen, TX, August 2012, GPA: 3.9
 Graduated with Honors
 
-Associate in General Studies
+<h3>Associate in General Studies</h3>
 Central Texas College, Killeen, TX, May 2012, GPA: 3.9
 Graduated with Honors
 
-Associate in Applied Science in Computer Science and Information Technology
+<h3>Associate in Applied Science in Computer Science and Information Technology</h3>
 Central Texas College, Killeen, TX, August  2011, GPA: 3.9
 Graduated with Honors
 					 
-SECURITY CLEARANCE: 
+<h2>SECURITY CLEARANCE:</h2>
 
 Current (as of April 2016). Will provide clearance level upon request. 
 
-EXPERIENCE:  
+<h2>EXPERIENCE:</h2>
 
 Data Interpretation and Analysis through Machine Learning, Quantitative Reasoning, and Qualitative Reasoning; Software Engineering and Database Design; Source Code Delivery and Maintenance; Software / Application Development Life Cycle (SDLC / ADLC); Project Level Management; TapRooT Root Cause Analysis; Environmental, Health and Employee Safety; 11 years AH-64D Airframe
 
