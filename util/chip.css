@@ -19,13 +19,9 @@
 
 .chip:hover{
     background-color: #ccc5c5;
-    font-color: white;
+    font-color: #fff;
 }
 
 .chip i{
-    color:#fff;
-    float: left;
-
-    height: 50px;
-    width: 50px;
+    color: #999292;
 }
