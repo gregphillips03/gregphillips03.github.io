@@ -1,2 +1,1 @@
-# gregphillips03.github.io
-Eportfolio
+<h1><b>Resume</b></h1>
