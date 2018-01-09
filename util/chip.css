@@ -6,7 +6,7 @@
     line-height: 50px;
     border-radius: 25px;
     background-color: #f1f1f1;
-    margin: 10px;
+    margin: 5px 5px 10px;
 }
 
 .chip img {
@@ -19,5 +19,5 @@
 
 .chip:hover{
     background-color: #ccc5c5;
-    text-color: white;
+    font-color: white;
 }
