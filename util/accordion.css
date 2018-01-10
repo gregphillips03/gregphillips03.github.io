@@ -16,7 +16,7 @@
 }
 
 .accordion:after {
-    content: '\002B';
+    content: '\002B'; /*unicode for plus sign */
     color: #777;
     font-weight: bold;
     float: right;
@@ -24,13 +24,13 @@
 }
 
 .active:after {
-    content: "\2212";
+    content: "\2212"; /*unicode for minus sign */
 }
 
 .panel {
     padding: 0 18px;
     background-color: white;
-    max-height: 0;
+    max-height: 0; /*initially set this to hidden*/
     overflow: auto;
     transition: max-height 0.2s ease-out;
 }

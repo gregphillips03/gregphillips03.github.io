@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./util/chip.css">
     <link rel="stylesheet" type="text/css" href="./util/star.css">
     <link rel="stylesheet" type="text/css" href="./util/skillbar.css">
+    <link rel="stylesheet" type="text/css" href="./util/sidenav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
@@ -22,7 +23,26 @@
 
 <body>
 
+<!-- Side Navigation -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Resume</a>
+  <a href="#">Contact</a>
+  <a href="#">My Work</a>
+</div>
+
+<!-- End Side Navigation -->
+
+<!-- Page Content -->
+
+<div id = "main">
+
 <div class = "content">
+
+<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776</span>
+
 <h2><b>Resume</b></h2>
 
 <p>William G. Phillips</p>
@@ -546,6 +566,10 @@ References upon request
 
 </div>
 
+</div>
+
+<!-- Accordion Panel Containers -->
+
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -560,6 +584,24 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
+}
+</script>
+
+<!-- End Accordion Panel Containers -->
+
+<!-- Side Navigation -->
+
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
 }
 </script>
 
